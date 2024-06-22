@@ -1,0 +1,286 @@
+/* Estilos globales */
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.menu-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-color: #DBCABF;
+    z-index: 0;
+}
+
+.menu-content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    padding-left: 100px;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 300px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    margin: 0 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: hsl(34, 56%, 29%);
+}
+
+.contacto h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    color: #BF9A7B;
+    font-size: 2em;
+}
+
+.cuadro-fondo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #DBCABF;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.imagen-contacto {
+    max-width: 300px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.imagen-contacto:hover {
+    transform: scale(1.5);
+}
+
+.texto-container {
+    flex: 1;
+    text-align: center;
+}
+
+.texto-contacto {
+    font-size: 2em;
+    font-family: 'Helvetica', sans-serif;
+    color: hwb(0 100% 0%);
+}
+
+.parrafo-adicional {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #666;
+}
+
+/* Cambiar el color de fondo del formulario a #DBCABF */
+.formulario-section {
+    padding: 40px;
+    margin: 20px auto;
+    width: 90%;
+    background-color: #DBCABF; /* Cambiado a DBCABF */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-cuadro {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.formulario-cuadro h2 {
+    color: #BF9A7B;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.form-group.full-width {
+    width: 100%;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #A67A5B;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+}
+
+.formulario-contacto textarea {
+    resize: vertical;
+}
+
+.formulario-contacto button {
+    background-color: white;
+    color: #A67A5B;
+    border: 1px solid #A67A5B;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.formulario-contacto button:hover {
+    background-color: #A67A5B;
+    color: white;
+}
+
+/* Estilos para la sección de ubicación */
+.ubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #DBCABF;
+    margin: 20px auto;
+    width: 100%; /* Abarca todo el ancho */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0; /* Quitar el redondeado */
+}
+
+.cuadro-naranja {
+    background-color: #DBCABF;
+    color: white; /* Cambiar el color del texto a blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+.imagen-ubicacion {
+    max-width: 600px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.imagen-ubicacion:hover {
+    transform: scale(1.5);
+}
+
+.contenido-ubicacion {
+    flex: 1;
+    text-align: center;
+}
+
+.titulo-ubicacion {
+    font-size: 2em;
+    font-family: 'Helvetica', sans-serif;
+    color: white; /* Cambiar el color del texto a blanco */
+}
+
+.info-ubicacion {
+    margin-top: 10px;
+    font-size: 1em;
+    color: white; /* Cambiar el color del texto a blanco */
+}
+
+.linea-separadora {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid white; /* Cambiar el color de la línea a blanco */
+}
+
+.info-adicional {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono-telefono {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.texto-telefono {
+    font-size: 1em;
+    color: white; /* Cambiar el color del texto a blanco */
+}
+
+/* Estilos para la sección de Términos y Condiciones */
+.terminos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #DBCABF;
+    margin: 20px auto;
+    width: 100%; /* Abarca todo el ancho */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0; /* Quitar el redondeado */
+}
+
+.cuadro-naranja {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #DBCABF;
+    color: white; /* Cambiar el color del texto a blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-container {
+    flex: 1;
+    text-align: left;
+}
+
+.small-logo {
+    width: 50px;
+}
+
+.contenido-terminos {
+    flex: 2;
+    text-align: center;
+}
+
+.contenido-terminos h2 {
+    color: white; /* Cambiar el color del texto a blanco */
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.iconos-terminos {
+    flex: 1;
+    text-align: right;
+}
+
+.social-icon {
+    width: 24px;
+    margin-left: 10px;
+}

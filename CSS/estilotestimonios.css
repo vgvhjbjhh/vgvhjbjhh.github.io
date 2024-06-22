@@ -1,0 +1,164 @@
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-color: #DBCABF;
+    z-index: 0;
+}
+
+.menu-content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1; /* Asegura que el contenido del menú esté delante del fondo */
+    padding-left: 100px;
+}
+
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo según tus necesidades */
+    margin-right: 300px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    margin: 0 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: hsl(34, 56%, 29%); /* Color al pasar el ratón por encima */
+}
+/* Estilos para el contenido adicional */
+.additional-content {
+    position: absolute;
+    top: 50%; /* Ajusta la posición vertical según sea necesario */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-social {
+    background-color: #DBCABF;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.small-logo {
+    width: 50px; /* Ajusta el tamaño del logo pequeño */
+    margin-right: 10px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Ajusta el tamaño de los íconos según sea necesario */
+    height: auto;
+}
+
+.terms {
+    background-color: #DBCABF;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin-left: 20px; /* Ajusta el margen izquierdo para separar de las imágenes */
+}
+
+.terms h2 {
+    margin-bottom: 10px;
+}
+
+.small-text {
+    font-size: 14px; /* Tamaño de letra más pequeño para los términos y condiciones */
+    line-height: 1.6; /* Ajusta el interlineado para mejorar la legibilidad */
+}
+/* Estilos generales */
+body {
+    margin: 0; /* Elimina el margen por defecto del cuerpo */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    min-height: 100vh; /* Garantiza que el cuerpo ocupe al menos toda la altura de la pantalla */
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos se distribuyan en columna */
+}
+
+header {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.main {
+    flex: 1; /* Hace que el contenido principal ocupe el espacio restante */
+    padding: 20px;
+}
+
+/* Estilos para el cuadro al final de la página */
+.bottom-content {
+    background-color: #DBCABF;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Empuja el contenido hacia la parte inferior de la página */
+}
+
+.icon-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Ancho máximo del cuadro */
+    margin: 0 auto; /* Centra el cuadro horizontalmente */
+}
+
+.small-logo {
+    width: 50px; /* Ajusta el tamaño del logo pequeño */
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 30px; /* Ajusta el tamaño de los íconos según sea necesario */
+    height: auto;
+}
+
+.terms {
+    flex: 1; /* Hace que ocupe el espacio restante */
+    text-align: center;
+}
+
+.small-text {
+    font-size: 14px; /* Tamaño de letra más pequeño para los términos y condiciones */
+    line-height: 1.6; /* Ajusta el interlineado para mejorar la legibilidad */
+}
